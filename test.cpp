@@ -134,7 +134,7 @@ int  Communicator::readFrameRequest() {
 		closesocket(this->ListenSocket);
 		WSACleanup();
 	}
-
+/*ssssss*/
 	else {
 		acceptSucess = true;
 		wprintf(L"Client connected.\n");
